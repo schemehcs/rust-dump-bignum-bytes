@@ -78,7 +78,7 @@ fn bits_to_bytes(bits: &[u8]) -> Vec<Vec<u8>>{
 }
 
 fn dump_bytes(bytes: &[Vec<u8>]) {
-    println!("0 1 2 3 4 5 6 7");
+    println!("7 6 5 4 3 2 1 0");
     println!("---------------");
     let mut n = (bytes.len() - 1) as isize;
     for byte in bytes {
